@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://us-daily-sudoku-puzzle.enjoy-onepage.com/sitemap.xml
