@@ -3,25 +3,13 @@
   <url>
     <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/</loc>
     <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/terms.html</loc>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/guides/guide.html</loc>
     <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/disclaimer.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
