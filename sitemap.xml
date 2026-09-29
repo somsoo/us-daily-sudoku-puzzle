@@ -2,14 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/guides/guide.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/daily.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/level/easy.html</loc>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/level/normal.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/level/hard.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/level/expert.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/disclaimer.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/privacy.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://us-daily-sudoku-puzzle.enjoy-onepage.com/terms.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
