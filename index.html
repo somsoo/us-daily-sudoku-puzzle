@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- PAGE:HEAD START -->
-<title>Daily Sudoku Puzzle | Free Sudoku Online, Easy to Expert</title>
-<meta name="description" content="Play free sudoku online: a new daily puzzle plus unlimited Easy, Medium, Hard and Expert games with pencil notes, mistake check and saved stats.">
+<title>Daily Sudoku Puzzle | Free Sudoku</title>
+<meta name="description" content="Play free sudoku online: a new daily puzzle plus unlimited Easy, Medium,">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://us-daily-sudoku-puzzle.enjoy-onepage.com/">
 <link rel="alternate" hreflang="en" href="https://us-daily-sudoku-puzzle.enjoy-onepage.com/">
@@ -19,13 +19,13 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Daily Sudoku Puzzle">
-<meta property="og:title" content="Daily Sudoku Puzzle | Free Sudoku Online, Easy to Expert">
-<meta property="og:description" content="Play free sudoku online: a new daily puzzle plus unlimited Easy, Medium, Hard and Expert games with pencil notes, mistake check and saved stats.">
+<meta property="og:title" content="Daily Sudoku Puzzle | Free Sudoku">
+<meta property="og:description" content="Play free sudoku online: a new daily puzzle plus unlimited Easy, Medium,">
 <meta property="og:url" content="https://us-daily-sudoku-puzzle.enjoy-onepage.com/">
 <meta property="og:image" content="https://us-daily-sudoku-puzzle.enjoy-onepage.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Daily Sudoku Puzzle | Free Sudoku Online, Easy to Expert">
-<meta name="twitter:description" content="Play free sudoku online: a new daily puzzle plus unlimited Easy, Medium, Hard and Expert games with pencil notes, mistake check and saved stats.">
+<meta name="twitter:title" content="Daily Sudoku Puzzle | Free Sudoku">
+<meta name="twitter:description" content="Play free sudoku online: a new daily puzzle plus unlimited Easy, Medium,">
 <meta name="twitter:image" content="https://us-daily-sudoku-puzzle.enjoy-onepage.com/og-image.png">
 <link rel="alternate" type="application/rss+xml" title="Daily Sudoku Puzzle RSS" href="https://us-daily-sudoku-puzzle.enjoy-onepage.com/rss.xml">
 <link rel="sitemap" type="application/xml" href="https://us-daily-sudoku-puzzle.enjoy-onepage.com/sitemap.xml">
@@ -207,6 +207,25 @@
   [hidden] { display: none !important; }
   :focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
   @media (max-width: 640px) { select { font-size: 16px; } .cell { font-size: 1.05rem; } }
+</style>
+<script id="math-guard">
+// Global Math & DOM Output Guard: prevents NaN / Infinity leaks to UI
+(function() {
+  const origToLocaleString = Number.prototype.toLocaleString;
+  Number.prototype.toLocaleString = function(locales, options) {
+    if (!Number.isFinite(this.valueOf())) return '0';
+    return origToLocaleString.call(this, locales, options);
+  };
+  const origToFixed = Number.prototype.toFixed;
+  Number.prototype.toFixed = function(digits) {
+    if (!Number.isFinite(this.valueOf())) return '0';
+    return origToFixed.call(this, digits);
+  };
+})();
+</script>
+<style id="ad-cls-shield">
+  .ad-bottom { min-height: 280px !important; }
+  .ad-bottom ins { min-height: 280px !important; }
 </style>
 </head>
 <body>
